@@ -9,7 +9,7 @@ interface LinkItemProps {
 
 export const LinkItems: Array<LinkItemProps> = [
     { name: 'Home', icon: FiHome, href: '/' },
-    { name: 'Processos', icon: FiTrendingUp, href: '/' },
+    { name: 'Processos', icon: FiTrendingUp, href: '/process' },
     { name: 'Pacientes', icon: FiCompass, href: '/patients' },
     { name: 'Relatorios', icon: FiStar, href: '/' },
 ];

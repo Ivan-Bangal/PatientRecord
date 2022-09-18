@@ -10,7 +10,7 @@ const Patient: NextPage = () => {
 
     const { data: patients, error } = useGetPatients();
 
-    if (!patients) return <h1>Loading...</h1>;
+    
 
     return (
         <>
