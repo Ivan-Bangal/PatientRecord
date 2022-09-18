@@ -1,5 +1,5 @@
-import { Patient as Consult } from './../model/Patient';
 import useSWR from "swr";
+import { Consult } from "../model/Consult";
 
 const fetcher = (url: RequestInfo | URL) => fetch(url).then((res) => res.json());
 
